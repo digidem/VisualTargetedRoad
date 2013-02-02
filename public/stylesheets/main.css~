@@ -28,8 +28,7 @@ body {
  margin-bottom: 5px;
 }
 
-/*
 #footer {
  height: 200px;
  border: 1px solid #000;
-}*
+}

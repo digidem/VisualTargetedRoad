@@ -1,11 +1,27 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Map</title>
+  <title>KAT</title>
+  <link rel="stylesheet" href="./stylesheets/main.css">
+  <script src="./javascripts/main.js"></script>
 </head>
 <body>
-  <div id="cherche-bar"></div>
-  <div id="kat"></div>
+ <div id="global">
+    <div id="header">
+           
+    </div><!--End of Header -->
+    
+    <div id="central">
+         <div id="menu_right">
+              
+         </div><!--End of menu_right -->
+    </div><!--End of central -->
+          
+    <!--<div id="footer">
+    
+    </div>-->
+   
+ </div><!--End of Global -->
 </body>
 </html>
