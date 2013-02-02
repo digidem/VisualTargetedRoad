@@ -29,12 +29,13 @@
       </div>-->
 
     </div><!--End of Global -->
-    <script type="javascript" src="javascripts/main.js"></script>
-    <script type="javascript" src="javascripts/map_renderer.js"></script>
-    <script type="javascript" src="javascripts/test_data.js"></script>
-    <script type="javascript">
-      var mapRenderer = new MapRenderer(findElementById('map'));
-      mapRendered.centerAt({lat: "1.2345", lon: "-1.3245"});
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/main.js"></script>
+    <script src="javascripts/map_renderer.js"></script>
+    <script src="javascripts/test_data.js"></script>
+    <script>
+      var mapRenderer = new MapRenderer('map');
+      mapRenderer.centerAt({lat: "1.2345", lon: "-1.3245"});
     </script>
 
   </body>
