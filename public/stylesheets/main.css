@@ -42,19 +42,20 @@ body {
         background: #eaf8fc;
         background-image: -moz-linear-gradient(#fff, #d4e8ec);
         background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #d4e8ec),color-stop(1, #fff));
-
+							/*
         -moz-border-radius: 35px;
         border-radius: 35px;
-
+							*/
+							
         border-width: 1px;
         border-style: solid;
         border-color: #c4d9df #a4c3ca #83afb7;
-        width: 500px;
+        width: 400px;
         height: 35px;
         padding: 10px;
-	margin-top: 20px;
+							margin-top: 20px;
         margin-right: 10px;
-	float: right;
+							float: right;
         overflow: hidden; /* Clear floats */
 }
 
@@ -66,16 +67,17 @@ body {
 #search {
         padding: 5px 9px;
         height: 23px;
-        width: 380px;
-        border: 1px solid #a4c3ca;
+        width: 280px;
+	border: none;
+       /* border: 1px solid #a4c3ca; */
         font: normal 13px 'trebuchet MS', arial, helvetica;
         background: #f1f1f1;
 
-        -moz-border-radius: 50px 3px 3px 50px;
+       /* -moz-border-radius: 50px 3px 3px 50px;
          border-radius: 50px 3px 3px 50px;
          -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
          -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
-         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1); */
 }
 
 /* ----------Submit_Button------------- */
@@ -85,9 +87,11 @@ body {
         background-image: -moz-linear-gradient(#95d788, #6cbb6b);
         background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #6cbb6b),color-stop(1, #95d788));
 
+							/*
         -moz-border-radius: 3px 50px 50px 3px;
         border-radius: 3px 50px 50px 3px;
-
+							*/
+							
         border-width: 1px;
         border-style: solid;
         border-color: #7eba7c #578e57 #447d43;
@@ -149,3 +153,4 @@ body {
    font-style: italic;
 }
 /*---------END_Search_Bar--------*/
+
